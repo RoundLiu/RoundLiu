@@ -9,4 +9,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.tianruan.round.GuideActivity">
 
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:textColor="@color/color03"
+        android:text="欢迎来到QQ之家"
+        android:id="@+id/textView3"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
