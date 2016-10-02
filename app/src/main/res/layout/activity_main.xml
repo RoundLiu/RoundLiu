@@ -7,15 +7,34 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.tianruan.round.MainActivity">
+    tools:context="com.tianruan.round.MainActivity"
+    android:background="@mipmap/mainpage">
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="37dp"
-        android:textColor="@color/colorPrimary"
-        android:text="欢迎进入QQ主界面"
+        android:textColor="@color/color04"
+
+        android:textStyle="bold"
         android:id="@+id/textView4"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp" />
+
+    <!--android:text="欢迎加入QQ大家庭"-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="37dp"
+        android:textColor="@color/color04"
+        android:textStyle="bold"
+
+        android:id="@+id/textView6"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+
+    <!--android:text="你好："-->
 </RelativeLayout>
