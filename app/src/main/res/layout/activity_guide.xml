@@ -17,17 +17,6 @@
 
 </android.support.v4.view.ViewPager>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:textColor="@color/colorone"
-        android:text="QQ欢迎您"
-        android:id="@+id/textView3"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="137dp" />
-
     <LinearLayout
         android:orientation="horizontal"
         android:id="@+id/search_mag_icon"
